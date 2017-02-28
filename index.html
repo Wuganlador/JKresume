@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-
-<html lang="en" style="overflow: hidden; height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
 	<title>Jk主页</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,12 +19,12 @@
 	<script src="javascripts/jquery.easing.min.js"></script>
 	<script src="javascripts/index.js"></script>
 </head>
-<body class="fp-viewing-page6" style="overflow: hidden; height: 100%;">
+<body>
 	<!-- header navigation -->
 	<div id="header" style="opacity: 0.3;"></div>
 	<header style="opacity: 1;">
 		<div id="logo">
-			<div id="header_img"><img src="images/logo.jpg" alt=""></div>
+			<div id="header_img"><img src="./images/logo.jpg" alt=""></div>
 			<div id="header_p">
 				<p id="header_p1">F2E</p>
 				<p id="header_p2">个人简历</p>
@@ -39,14 +39,14 @@
 			</ul>
 		</nav>
 	</header>
-	<div id="dowebok" class="fullpage-wrapper" style="height: 100%; position: relative; touch-action: none; transform: translate3d(0px, -3240px, 0px); transition: all 700ms ease;">
+	<div id="dowebok">
 		<!-- page1 home -->
-		<div class="section section1 fp-section fp-table" data-anchor="page1" style="height: 640px;"><div class="fp-tableCell" style="height:640px;">
+		<div class="section section1">
 			<div id="home">
 				<div class="home_zoom">
 					<div class="imgbox" id="home_head_imgbox">
-						<img src="images/portrait.jpg" id="home_photo1" alt="">
-						<img src="images/logo.jpg" id="home_photo2" alt="">
+						<img src="./images/portrait.jpg" id="home_photo1" alt="">
+						<img src="./images/logo.jpg" id="home_photo2" alt="">
 					</div>
 					<div id="home_info">
 						<p id="home_info1" style="display: block;">生活是一种绵延不绝的渴望,渴望不断上升,变得更伟大而高贵。</p>
@@ -59,17 +59,17 @@
 					</div>
 				</div>
 			</div>
-		</div></div>
+		</div>
 		<!-- page1 home end -->
 		<!-- page2 about -->
-		<div class="section section2 fp-section fp-table" data-anchor="page2" style="height: 640px;"><div class="fp-tableCell" style="height:640px;">
+		<div class="section section2">
 			<div id="about">
 				<div id="about_content">
 					<div class="title">
 						<h1>关于我</h1>
-						<div class="title_en" style="opacity: 0;"><h2>· About me ·</h2></div>
+						<div class="title_en"><h2>· About me ·</h2></div>
 					</div>
-					<div id="about_list_content" style="left: -120%;">
+					<div id="about_list_content">
 						<div class="about_list" id="about_list1">
 							<div class="about_list_eg" id="about_en_edu">education</div>
 							<div class="about_list_cn" id="about_cn_edu">学历<p>大专</p></div>
@@ -94,17 +94,17 @@
 					</div>
 				</div>
 			</div>
-		</div></div>
+		</div>
 		<!-- page2 about end -->
 	    <!-- page3 skill -->
-		<div class="section section3 fp-section fp-table" data-anchor="page3" style="height: 640px;"><div class="fp-tableCell" style="height:640px;">
+		<div class="section section3">
 			<div id="skill">
 				<div id="skill_content">
 					<div class="title">
-						<h1>专业技能</h1><div class="title_en" style="opacity: 0;"><h2>· Skill ·</h2></div>
+						<h1>专业技能</h1><div class="title_en"><h2>· Skill ·</h2></div>
 					</div>
 					<div id="skill_info"><p>前端的学习需要持之以恒，知识深度与广度都很重要。而前端开发的重中之重就是原生javascript的理解。</p></div>
-	                <div id="skill_list" style="left: 120%;">
+	                <div id="skill_list">
 	                    <div class="skill_list_content skill_scale" id="skill_list1">
 	                        <div class="skill_icon" id="skill_icon1"><h3>HTML</h3></div>
 	                        <div class="skill_name"></div>
@@ -132,47 +132,49 @@
 	                </div>
 	            </div>
 	        </div>			
-		</div></div>
+		</div>
 		<!-- page3 skill end -->	
 	    <!-- page4 experience -->
-		<div class="section section4 fp-section fp-table" data-anchor="page4" style="height: 640px;"><div class="fp-tableCell" style="height:640px;">
+		<div class="section section4">
 			<div id="exp">
 		    	<div id="exp_content">
 		    		<div class="title">
-		            	<h1>我的经历</h1><div class="title_en" style="opacity: 0;"><h2>· Experience ·</h2></div>
+		            	<h1>我的经历</h1><div class="title_en"><h2>· Experience ·</h2></div>
 		            </div>
 		            <div id="exp_list_slider">
 		            	<div id="exp_list_slider_content" class="exp_scale">
-		                    <div id="exp_list_content" style="left: -900px;">
+		                    <div id="exp_list_content" style="left: 0px;">
 		                        <div class="exp_list">
 		                            <div class="exp_list_left" id="exp_list_left1">
 	                                    <dl>
-	                                        <dt>深圳盈客科技有限公司</dt>
-	                                        <dd class="exp_list_time">2014.07 — 2015.12</dd>
-	                                        <dd>网络推广部</dd>
-	                                        <dd>网络推广运营</dd>
-	                                        <dd>测试软件和网页，提供用户优化体验信息及公司设计的网页改进建议。<br>
-											负责，微博、微信等新媒体创意撰写，营销和推广。</dd>
-	                                    </dl>          
+	                                        <dt>广州宇竣包装设备有限公司</dt>
+	                                        <dd class="exp_list_time">2014.04 — 2014.12</dd>
+	                                        <dd>研发部</dd>
+	                                        <dd>电气工程师</dd>
+	                                        <dd>主要偏向于硬件编程，</br>对PLC控制器的编程和解决元器件线路问题。</dd>
+	                                    </dl>        
 		                            </div>
 		                    	</div>
 		                    	<div class="exp_list">
 		                            <div class="exp_list_left" id="exp_list_left2">
 	                                    <dl>
-	                                        <dt>惠州阡宏工作室</dt>
-	                                        <dd class="exp_list_time">2016.03 — 2016.12</dd>
-	                                        <dd>网站服务工作室，负责建站，淘宝店铺装修等。<br>
-												个人主要负责ps修图，切图排版布局，静态网站代码编辑和JS动画脚本制作，业余进修前端知识。<br>
-											</dd>
+	                                        <dt>深圳盈客科技有限公司</dt>
+	                                        <dd class="exp_list_time">2015.05 — 2015.12</dd>
+	                                        <dd>网络推广部</dd>
+	                                        <dd>网络推广运营</dd>
+	                                        <dd>测试软件和网页，提供用户优化体验信息及公司设计的网页改进建议。</br>
+							负责，微博、微信等新媒体创意撰写，营销和推广。</dd>
 	                                    </dl>               
 		                        	</div>
 		                    	</div>
 		                        <div class="exp_list">
 		                            <div class="exp_list_left" id="exp_list_left3">
 	                                    <dl>
-	                                        <dt>将来</dt>
-	                                        <dd>希望能和您一起工作，然后继续学习前端知识，走得更远。<br>
-											</dd>
+	                                        <dt>惠州阡宏工作室</dt>
+	                                        <dd class="exp_list_time">2016.03 — 2016.12</dd>
+	                                        <dd>网站服务工作室，负责建站，淘宝店铺装修等。</br>
+						个人主要负责ps修图，切图排版布局，静态网站代码编辑和JS动画脚本制作，业余进修前端知识。</br>
+						</dd>
 	                                    </dl> 
 		                            </div>
 		                        </div>
@@ -183,9 +185,9 @@
 			                </div>
 
 			                <div id="exp_list_buttons">
-			                    <span index="1" class=""></span>
-			                    <span index="2" class="on"></span>
-			                    <span index="3" class=""></span>
+			                    <span index="1" class="on"></span>
+			                    <span index="2"></span>
+			                    <span index="3"></span>
 			                </div>
 
 		                </div>	       
@@ -193,16 +195,16 @@
 		            </div>
 		        </div>
 		    </div>
-		</div></div>
+		</div>
 		<!-- page4 experience end -->
 	    <!-- page5 demo -->
-		<div class="section section5 fp-section fp-table" data-anchor="page5" style="height: 640px;"><div class="fp-tableCell" style="height:640px;">
+		<div class="section section5">
 			    	<div id="demo">
 			        	<div id="demo_content">
 			            	<div class="title">
-			                	<h1>我的作品</h1><div class="title_en" style="opacity: 0;"><h2>· Demo ·</h2></div>
+			                	<h1>我的作品</h1><div class="title_en"><h2>· Demo ·</h2></div>
 			                </div>
-			                <div id="demo_content_list" style="display: none;">                   
+			                <div id="demo_content_list">                   
 			                    <ul class="demo_box">
 			                    	<li class="demo_scale">
 			                            <div class="demo_box_content">
@@ -253,14 +255,14 @@
 			                </div>
 			            </div>
 			        </div>
-		</div></div>
+		</div>
 		<!-- page5 demo end -->
 	    <!-- page6 contact -->
-		<div class="section section6 fp-section fp-table active" data-anchor="page6" style="height: 640px;"><div class="fp-tableCell" style="height:640px;">
+		<div class="section section6">
 			<div id="contact">
 		    	<div id="contact_content">
 					<div class="title">
-				    	<h1>联系方式</h1><div class="title_en" style="opacity: 1;"><h2>· Contact ·</h2></div>
+				    	<h1>联系方式</h1><div class="title_en"><h2>· Contact ·</h2></div>
 				    </div>
 				    <div class="contact_p">
 				    	<p>带上我吧，一起看更大的世界！</p>
@@ -271,14 +273,13 @@
 							<dt>邮箱：1337657417@qq.com</dt>
 							<dt>微信：13512785404</dt>
 							<dt></dt>
-							<dt><a href="https://github.com/Wuganlador">github</a>Ι<a href="http://my.csdn.net/sufeideyeye">博客</a></dt>
+							<dt><a href="https://github.com/Wuganlador">github</a>&Iota;<a href="http://my.csdn.net/sufeideyeye">博客</a></dt>
 						</dl>
 					</div>
 				</div>
 			</div>
-		</div></div>
+		</div>
 		<!-- page6 contact end-->
 	</div>
-
-
-<div id="fp-nav" class="right" style="color: rgb(0, 0, 0); margin-top: -63.5px;"><ul><li><a href="#page1" class=""><span></span></a><div class="fp-tooltip right">page1</div></li><li><a href="#page2" class=""><span></span></a><div class="fp-tooltip right">page2</div></li><li><a href="#page3" class=""><span></span></a><div class="fp-tooltip right">page3</div></li><li><a href="#page4" class=""><span></span></a><div class="fp-tooltip right">page4</div></li><li><a href="#page5" class=""><span></span></a><div class="fp-tooltip right">page5</div></li><li><a href="./Jk主页_files/Jk主页.html" class="active"><span></span></a><div class="fp-tooltip right">page6</div></li></ul></div></body></html>
+</body>
+</html>
